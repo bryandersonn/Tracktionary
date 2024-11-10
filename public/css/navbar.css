@@ -1,0 +1,33 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbarcontainer{
+    background-color: rgba(17, 17, 17, 1);
+}
+
+.navbarcontainer a{
+    color: white;
+}
+
+.navbarcontainer a:hover{
+    color: maroon;
+}
+
+#searchbar button{
+    border: 2px solid maroon;
+    color: maroon;
+}
+
+#searchbar button:hover{
+    background-color: maroon;
+    color: white;
+}
+
+.rightside a{
+    text-decoration: none;
+}
+

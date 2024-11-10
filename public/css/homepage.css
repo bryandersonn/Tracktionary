@@ -1,0 +1,66 @@
+main {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(17, 17, 17, 1);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#homesection{
+    height: 100vh;
+}
+
+.intro{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10rem;
+    color: white;
+}
+
+#mainintro{
+    font-size: 50px;
+    margin-bottom: 5rem;
+}
+
+#introdesc{
+    font-size: 30px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+}
+
+#maindesc{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 5rem;
+}
+
+#notes{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+#currgenretext{
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+#currgenre{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    color: red;
+}

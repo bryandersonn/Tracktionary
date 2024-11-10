@@ -1,0 +1,59 @@
+#favsongs
+{
+    height: 100vh;
+}
+
+#favsongtitle{
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.songcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+iframe{
+    min-width: 20%;
+    margin:10px;
+}
+
+.genrebuttons{
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: maroon;
+    gap: 2rem;
+    width: 60%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.genrebuttons button{
+    border: none;
+    color: white;
+    background-color: rgba(17, 17, 17, 1);
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+}
+
+.genrebuttons button:hover{
+    color: black;
+    background-color: lightgray;
+    transition: 0.25s;
+}
